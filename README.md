@@ -13,3 +13,16 @@ IMPORTANT: To complete the last step in the tutorial "Load some sample data", us
 - /SearchLdap/import.ldif
 
 The LDIF file uses the same structure as defined in the tutorial above and includes additional data retrieved from Oracle DB's HR database.
+
+Run the application:
+- mvn spring-boot:run
+
+Open browser and hit URL:
+http://localhost:8080/search/King
+
+Result :
+[
+"Janette King",
+"Steven King"
+]
+
